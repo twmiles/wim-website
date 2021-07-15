@@ -487,14 +487,14 @@ a.active {
 /* intro */
 
 #intro {
-  /*  background: url(../img/); */
-  background-color: black;
-    background-size: cover;
+  background: url(../img/FearlessGirl.jpg); 
+  background-color: #5B77CC;
+    background-size: 70% 100%;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-color: #000;
-    color: #000;
+    background-color: #5B77CC;
+    color: #5B77CC;
 }
 
 #intro .overlay {
