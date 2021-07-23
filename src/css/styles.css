@@ -464,6 +464,9 @@ a.active {
 .navbar-brand.page-scroll {
     letter-spacing: 1px;
     font-size: 16px;
+    /*background: url(../img/WIMlogo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;*/
 }
 
 .navbar-shadow {
@@ -488,13 +491,14 @@ a.active {
 
 #intro {
   background: url(../img/FearlessGirl.jpg); 
-  background-color: #5B77CC;
-    background-size: 70% 100%;
+  background-color: #fff;
+    background-size: 50% 100%;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-color: #5B77CC;
-    color: #5B77CC;
+    background-color: #fff;
+    /*color: #5B77CC;*/
+    color: #fff;
 }
 
 #intro .overlay {
