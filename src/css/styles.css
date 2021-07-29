@@ -55,7 +55,7 @@ button:focus,
     z-index: 1001;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #A90533;
+    border-top-color: #5B77CC;
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
 }
@@ -69,7 +69,7 @@ button:focus,
     bottom: 5px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #A90533;
+    border-top-color: #003977;
     -webkit-animation: spin 3s linear infinite;
     animation: spin 3s linear infinite;
 }
@@ -83,7 +83,7 @@ button:focus,
     bottom: 15px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #A90533;
+    border-top-color: #5B77CC;
     -webkit-animation: spin 1s linear infinite;
     animation: spin 1s linear infinite;
 }
@@ -453,7 +453,7 @@ a.active {
     }
     .navbar-custom.top-nav-collapse {
         padding: 0;
-        background: #000;
+        background: #003977;
     }
 }
 
@@ -490,7 +490,7 @@ a.active {
 /* intro */
 
 #intro {
-  background: url(../img/FearlessGirl.jpg); 
+  background: url(../img/FearlessGirl.jpg);
   background-color: #fff;
     background-size: 50% 100%;
     background-position: center;
@@ -1093,8 +1093,8 @@ ul.social-buttons li a:active {
 #instagram:hover {
     background-color: #3f729b;
 }
-#github:hover {
-    background-color: #6cc644;
+#linkedin1:hover {
+    background-color: #2867B2;
 }
 #beinvolved:hover {
     background-color: #AF2B45;
