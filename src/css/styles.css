@@ -234,7 +234,7 @@ h3 {
     font-weight: 700;
 }
 
-p {
+p, .li1, #ul1 {
     margin: 0 0 25px;
     font-size: 16px;
     line-height: 1.7;
@@ -761,8 +761,8 @@ a.constitution-btn {
     background: none;
     display: inline-block;
     padding: 10px 20px;
-    color: #ddd;
-    border: 2px solid #ccc;
+    color: black;
+    border: 2px solid black;
     font-family: "Lato", sans-serif;
     font-size: 16px;
     font-weight: 300;
@@ -775,7 +775,7 @@ a.constitution-btn {
 
 a.constitution-btn:hover,
 a.constitution-btn:active {
-    color: #fff;
+    color: #ccc;
     border: 2px solid #ccc;
     background-color: rgba(254, 254, 254, 0.2);
     padding: 10px 30px;
@@ -919,7 +919,7 @@ a.constitution-btn:active {
     position: absolute;
     bottom: -100%;
     left: 0;
-    background-color: #A90533;
+    background-color: #5B77CC;
     color: #fff;
     height: 45px;
     width: 100%;
@@ -1174,6 +1174,12 @@ ul.social-buttons li a:active {
 @media screen and (min-width: 768px) {
     .modal-dialog {
         width: 700px;
+    }
+}
+/*LEARN MORE*/
+@media screen and (min-width: 768px) {
+    .modal-dialog1 {
+        width: 1500px;
     }
 }
 
