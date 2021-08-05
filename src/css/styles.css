@@ -813,7 +813,7 @@ a.constitution-btn:active {
 
 #event .coming-soon {
     margin-bottom: 50px;
-    text-transform: lowercase;
+    text-transform: none;
 }
 
 #event .event-item-wrapper {
