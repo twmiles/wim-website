@@ -775,8 +775,8 @@ a.constitution-btn {
 
 a.constitution-btn:hover,
 a.constitution-btn:active {
-    color: #ccc;
-    border: 2px solid #ccc;
+    color: #5B77CC;
+    border: 2px solid #5B77CC;
     background-color: rgba(254, 254, 254, 0.2);
     padding: 10px 30px;
 }
@@ -964,8 +964,8 @@ a.constitution-btn:active {
 
 #event #display-button:hover {
     color: #fff;
-    background: #A90533;
-    border: 2px solid #A90533;
+    background: #5B77CC;
+    border: 2px solid #5B77CC;
 }
 
 /* contact */
@@ -1008,8 +1008,8 @@ a.constitution-btn:active {
 
 #contact #email-button:hover {
     color: #fff;
-    background: #A90533;
-    border: 2px solid #A90533;
+    background: #5B77CC;
+    border: 2px solid #5B77CC;
 }
 
 @media screen and (max-width: 480px) {
@@ -1248,8 +1248,8 @@ ul.social-buttons li a:active {
 
 .modal-body .recording-btn {
     padding: 10px;
-    color: #A90533;
-    border: 2px solid #A90533;
+    color: #5B77CC;
+    border: 2px solid #5B77CC;
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
@@ -1261,7 +1261,7 @@ ul.social-buttons li a:active {
 
 .modal-body .recording-btn:hover {
     color: #fff;
-    background-color: #A90533;
+    background-color: #5B77CC;
 }
 
 .recording-btn.disabled {
@@ -1272,8 +1272,8 @@ ul.social-buttons li a:active {
 
 .modal-body .slides-btn {
     padding: 10px;
-    color: #A90533;
-    border: 2px solid #A90533;
+    color: #5B77CC;
+    border: 2px solid #5B77CC;
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
@@ -1285,7 +1285,7 @@ ul.social-buttons li a:active {
 
 .modal-body .slides-btn:hover {
     color: #fff;
-    background-color: #A90533;
+    background-color: #5B77CC;
 }
 
 .slides-btn.disabled {
