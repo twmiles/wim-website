@@ -490,10 +490,10 @@ a.active {
 /* intro */
 
 #intro {
-  background: url(../img/CWIMLogo.png);
+  /*background: url(../img/CWIMLogo.png);*/
   background-color: #fff;
-    background-size: 25% 50%;
-    background-position: 50% 35%;
+    background-size: 50% 100%;
+    background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: #fff;
@@ -519,7 +519,7 @@ a.active {
     /* IE6-9 */
     height: 750px;
     background-attachment: fixed;
-}
+} 
 
 #intro h1 {
     color: #FFF;
@@ -831,8 +831,8 @@ a.constitution-btn:active {
 
 #event .event-item {
     display: block;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.148438) 0 1px 2px;
-    box-shadow: rgba(0, 0, 0, 0.148438) 0 1px 2px;
+    /*-webkit-box-shadow: rgba(0, 0, 0, 0.148438) 0 1px 2px;*/
+    /*box-shadow: rgba(0, 0, 0, 0.148438) 0 1px 2px;*/
     padding: 0;
     margin-bottom: 10px;
     cursor: pointer;
@@ -855,6 +855,12 @@ a.constitution-btn:active {
     width: 100%;
     height: 100%;
     opacity: 0;
+}
+
+#event .event-hover:hover {
+    color: #ffff;
+    background-color: #5B77CC;
+    transition: 0.3s ease-in-out;
 }
 
 #event .event-info,
@@ -919,7 +925,7 @@ a.constitution-btn:active {
     text-align: center;
 }
 
-/*
+
 #event .event-item:hover .event-overlay,
 #event .event-item:hover .links {
     opacity: 1;
@@ -928,7 +934,7 @@ a.constitution-btn:active {
     -ms-transform: translate(0, 0);
     -o-transform: translate(0, 0);
     transform: translate(0, 0);
-}*/
+}
 
 #event .event-item:hover .event-info {
     bottom: 0;
