@@ -801,10 +801,17 @@ a.constitution-btn:active {
     margin-left: 50px;
     margin-right: 50px;
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    gap: 60px 20px;
+    flex-flow: column nowrap;
+    align-items: center;
 }
+
+#event .event-rowLarge {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 64%;
+}
+
 
 @media (max-width: 950px) {
     #event .event-row {
@@ -862,12 +869,6 @@ a.constitution-btn:active {
     transition: 0.3s ease-in-out;
     -moz-transition: 0.3s ease-in-out;
     -webkit-transition: 0.3s ease-in-out;
-}
-
-#event .side-by-side img {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
 }
 
 #event .event-overlay {
