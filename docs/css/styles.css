@@ -812,9 +812,9 @@ a.constitution-btn:active {
     width: 64%;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1600px) {
     #event .event-rowLarge {
-        width: 51%;
+        width: 50.5%;
     }
 }
 
