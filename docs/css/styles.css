@@ -607,7 +607,7 @@ a.fa.fa-angle-down:focus {
 }
 
 
-/* about / join the club */
+/* about */
 
 #aboutus {
     padding-top: 100px;
@@ -991,7 +991,7 @@ a.constitution-btn:active {
     font-size: 20px;
     border: 2px solid #000;
     -webkit-transition: 0.3s ease-in-out;
-    transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;	
 }
 
 #event #display-button:hover {
@@ -1362,4 +1362,18 @@ img::selection {
 
 img::-moz-selection {
     background: 0 0;
+}
+
+/*video*/
+video {
+  height: 100%;
+  width: 100%;
+  padding: 3%;
+}
+
+@media (max-width: 1800px) {
+    html, body {
+        max-width: 100% !important;
+        overflow-x: clip !important;
+    }
 }

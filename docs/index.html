@@ -4,7 +4,8 @@
 <head>
     <title>Collaborative Women in Investment Management Initiative</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
     <!-- a little SEO ? :) lol -->
     <meta name="keywords" content="collaborative wim, women in investment management, wim, global wim, global initiative" />
     <meta name="author" content="Tracy Miles" />
@@ -45,7 +46,7 @@
                 <div class="navbar-header page-scroll">
                   <!--collapse nav -->
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                        <!--<i class="fa fa-2x fa-bars"></i>-->
+                    <i class="fa fa-2x fa-bars"></i>
                     </button>
                     <a class="navbar-brand page-scroll" href="#intro">
                         <!--<i class="fa fa-terminal"></i>--> Collaborative WIM</a>
@@ -88,7 +89,6 @@
         <br>
         <br>
         <br>
-        <!-- Section: who we are / join the club -->
         <section id="aboutus" class="text-center">
             <div class="container">
                 <div class="row">
@@ -284,7 +284,7 @@
 
                         </div>
                 </div>
-
+				</div>
                 <br/>
                 <br/>
                 <br/>
@@ -396,10 +396,8 @@
         </div>
     </div>
 </div>
-
         <!-- section: constitution -->
         <section id="allies">
-
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -423,12 +421,56 @@
 
                     </div>
               </div>
+			  <div id="event" class="col-lg-12" style="background-color: #ffff;">
+                        <div class="col-md-10 col-md-offset-1 text-center wp3" style="background-color: #ffff;">
+                    <div class="row event-row">
+                        <div class="event-item" data-toggle="modal" href="#Schroedersmod">
+                            <div class="event-overlay"></div>
+                                <div class="links">
+                                    <a class="image-link"><i class="fa fa-search-plus"></i></a>
+                                </div>
+                                    <img src="img/Schroders_Logo_Prussian Blue_RGB.jpg" alt="Schroeders image">
+                                <div class="event-info">
+                                    <h3>Learn More: 2021 Platinum Sponsor</h3>
+                                </div>
+                        </div>
+                    </div>
+					</div>
+					</div>
                 <!-- /row -->
               <!--<h2>Collaborative WIM 2021 Sponsors</h2>-->
               <img src="img/allies.png" alt="Our Allies" width=100% height=100%/>
             </div>
+			
             <!-- /container-->
         </section>
+		
+		<!--Schroeders Modal-->
+		<div class="modal fade" id="Schroedersmod" tabindex="-1" role="dialog" aria-labelledby="Schroedersmod" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">2021 Platinum Sponsor: Schroeders</h4>
+                        <h6 class="modal-title-description"></h6>
+                    </div>
+                    <div class="modal-body">
+					 <p>
+                       <video id="vid" width="600" height="350" controls>
+						<source src="vid/marketing_video.mp4" type="video/mp4">
+						Your browser does not support the video.
+						</video>
+                     </p>
+                        <p class="modal-description"></p>
+                        <p class="record-slides"><a href="https://www.schroders.com/" target="_blank" class="slides-btn" title="Website" >Schroders Website</a></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+		
         <!-- /section: constitution -->
         <!-- section: constitution button -->
         <!-- /section: constitution button -->
@@ -568,6 +610,8 @@
                     </div>
                     <br>
                     <br>
+				</div>
+				</div>
                   <div class="col-lg-12 text-center" style="background-color: #ffff" id="hiddenrows">
                     <div class="overlay">
                         <div class="container" id="hiddenrows">
@@ -1037,17 +1081,8 @@
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <ul class="list-inline social-buttons animated fadeIn">
-                            <!--<li><a id="discord" title="Discord Server" href="https://discord.com/invite/BgF9XcbAya" target="_blank"><i class="fab fa-discord"></i></a></li>-->
-                            <!--BeInvolved Button-->
-                            <!--<li><a id="beinvolved" title="beINvolved" href="https://beinvolved.indiana.edu/organization/csciu" target="_blank"><img src="img/beINvolved_logo.png" alt="beinvolved" width="50%" height="50%" style="margin-bottom: 10%"></a></li>-->
                             <!-- LinkedIn Button -->
                             <li><a id="linkedin1" title="LinkedIn" href="https://www.linkedin.com/company/collaborative-wim-initiative/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                            <!-- Instagram Button -->
-                            <!--<li><a id="instagram" title="Instagram" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>-->
-                            <!--GroupMe Button-->
-                            <!--<li><a id="groupme" title="GroupMe" href="https://web.groupme.com/join_group/65863443/QBmbyDbE" target="_blank"><img src="img/groupme.png" alt="groupme" width="50%" height="50%" style="margin-bottom: 10%"></i></a></li>-->
-                            <!-- Email List Button -->
-                            <!--<li><a id="email-list" title="Join our email list!" href="https://list.indiana.edu/sympa/subscribe/sice-security-club-l" target="_blank"><i class="fa fa-envelope"></i></a></li>-->
                             <!--YouTube Button-->
                             <li><a id="youtube" title="YouTube" href="https://www.youtube.com/channel/UCwrPp206yibgy6G5GAMZjNg" target="_blank"><i class="fab fa-youtube"></i></a></li>
                         </ul>
@@ -1068,6 +1103,7 @@
             </div>
             <!-- /container -->
         </footer>
+
         <!-- main javascript -->
         <script src="js/bootstrap.min.js"></script>
         <script src="js/particles.js"></script>
