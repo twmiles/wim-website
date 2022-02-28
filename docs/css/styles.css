@@ -690,15 +690,15 @@ a.fa.fa-angle-down:focus {
     position: relative;
     margin: 0 auto 40px;
 }
-
-.icon:hover {
+/*rotation for pictures*/
+/*.icon:hover {
     -ms-transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
     -webkit-transition: all ease .7s;
     -moz-transition: all ease .7s;
     transition: all ease .7s;
-}
+}*/
 
 @media screen and (max-width: 480px) {
     #exec {
@@ -991,7 +991,7 @@ a.constitution-btn:active {
     font-size: 20px;
     border: 2px solid #000;
     -webkit-transition: 0.3s ease-in-out;
-    transition: 0.3s ease-in-out;	
+    transition: 0.3s ease-in-out;
 }
 
 #event #display-button:hover {
