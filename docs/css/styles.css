@@ -784,6 +784,15 @@ a.constitution-btn:active {
     border: 2px solid #5B77CC;
 }
 
+.sponsor1 img {
+    text-align: center;
+}
+
+.sponsor2 img {
+    text-align: center;
+    padding-top: 75px;
+}
+
 
 /* events */
 
